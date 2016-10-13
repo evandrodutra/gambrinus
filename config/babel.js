@@ -1,0 +1,10 @@
+module.exports = {
+  presets: [
+    'es2015',
+    'stage-0'
+  ],
+  plugins: [
+    'transform-object-rest-spread',
+    'transform-object-assign'
+  ]
+}
