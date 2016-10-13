@@ -1,5 +1,5 @@
 const paths = require('./paths');
-const babelConfig = require('./babel')
+const babelConfig = require(paths.appPackageJson)["babel"]
 const webpack = require('webpack')
 const autoprefixer = require('autoprefixer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')

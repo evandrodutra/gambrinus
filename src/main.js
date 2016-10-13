@@ -1,3 +1,3 @@
 import App from 'components/App'
 
-new App().render(document.getElementById('hello'))
+document.getElementById('hello').innerText = new App().sayHello()

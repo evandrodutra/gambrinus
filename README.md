@@ -1,21 +1,20 @@
 # node-skeleton :skull:
-========
 
-**node-skeleton** was made to have a simple skeleton for a complete Web App ready to go
+**node-skeleton** was made to have a simple skeleton for a complete Web App ready to go.
 
 ## Installation
 
-- Perform a clone of this repo.
-- Install packages (`npm install`)
+- Perform a clone of this repo;
+- Install packages (`npm install`).
 
 ## Technologies
 
 * babel
 * eslint
 * lodash
-* moment
 * webpack
 * webpack-dev-server
+* jest
 * loaders:
   * css
   * file

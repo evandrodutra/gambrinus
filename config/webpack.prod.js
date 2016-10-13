@@ -1,5 +1,5 @@
 const paths = require('./paths');
-const babelConfig = require('./babel')
+const babelConfig = require(paths.appPackageJson)["babel"]
 const autoprefixer = require('autoprefixer')
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')

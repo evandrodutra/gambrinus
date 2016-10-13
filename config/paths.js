@@ -11,7 +11,6 @@ module.exports = {
   appPublic: resolveApp('/'),
   appHtml: 'index.html',
   appIndexJs: resolveApp('src/main.js'),
-  appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
-  appNodeModules: resolveApp('node_modules')
+  appPackageJson: resolveApp('package.json')
 };
