@@ -2,13 +2,13 @@
 
 **Gambrinus** is a home brewing beer formulas to aid in your brewing process.
 
-## Available Formulas
+## WIP: Available Formulas
 
 - Alcohol by volume ABV
 - All grain OG, FG, ABV
 - Primming
 - Efficience
-- Water
+- Water chemicals
 - Brix conversion
 - Chaptalization
 - Dilution and boiloff gravity
