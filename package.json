@@ -1,32 +1,32 @@
 {
-  "name": "node-skeleton",
+  "name": "Gambrinus",
   "version": "1.0.0",
-  "description": "Node app skeleton",
-  "main": "index.js",
+  "description": "Homebrew formulas",
+  "main": "src/main.js",
   "author": "Evandro Dutra",
   "license": "MIT",
   "private": false,
-  "homepage": "https://github.com/evandrodutra/node-skeleton#readme",
+  "homepage": "https://github.com/magrathealabs/gambrinus#readme",
   "keywords": [
-    "node",
-    "babel",
-    "webpack",
-    "eslint",
-    "jest",
-    "skeleton"
+    "beer",
+    "homebrew",
+    "formulas"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evandrodutra/node-skeleton.git"
+    "url": "git+https://github.com/magrathealabs/gambrinus.git"
   },
   "bugs": {
-    "url": "https://github.com/evandrodutra/node-skeleton/issues"
+    "url": "https://github.com/magrathealabs/gambrinus/issues"
   },
   "engines": {
     "node": "6.8.x",
     "npm": "3.10.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "15.3.2",
+    "react-dom": "15.3.2"
+  },
   "devDependencies": {
     "autoprefixer": "6.5.0",
     "babel-core": "6.17.0",
@@ -66,8 +66,15 @@
   "jest": {
     "coverageDirectory": "<rootDir>/coverage",
     "collectCoverage": true,
-    "collectCoverageFrom": ["**/*.{js,jsx}", "!**/{node_modules,config,coverage,dist,tmp,test}/**", "!**/webpack.config.js"],
-    "moduleDirectories": ["node_modules", "src"],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/{node_modules,config,coverage,dist,tmp,test}/**",
+      "!**/webpack.config.js"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
     "moduleNameMapper": {
       "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/test/stubs/file_stub.js",
       "^.+\\.scss$": "<rootDir>/test/stubs/css_stub.js"

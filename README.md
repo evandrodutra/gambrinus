@@ -1,38 +1,34 @@
-# node-skeleton :skull:
+# Gambrinus :beer:
 
-**node-skeleton** was made to have a simple skeleton for a complete Web App ready to go.
+**Gambrinus** is a home brewing beer formulas to aid in your brewing process.
 
-## Installation
+## Available Formulas
 
-- Perform a clone of this repo;
-- Install packages (`npm install`).
+- Alcohol by volume ABV
+- All grain OG, FG, ABV
+- Primming
+- Efficience
+- Water
+- Brix conversion
+- Chaptalization
+- Dilution and boiloff gravity
+- Gyle and krausen primming
+- Bottling
+- Hydrometer temperature adjustment
+- Bitterness IBU
+- Keg carbonation
+- Mash Infusion and rest schedule
+- Quick infusion
+- Refractometer
+- Yest pitch rate and starter
+- Beer color SRM
+- CO2
+- PSI
 
-## Technologies
+## Contributing
 
-* babel
-* eslint
-* lodash
-* webpack
-* webpack-dev-server
-* jest
-* loaders:
-  * css
-  * file
-  * html
-  * sass
-  * postcss
-  * raw
-  * style
-  * url
-
-## Scripts
-
-* `npm run build`
-* `npm run lint`
-* `npm run test`
-* `npm run clean`
-* `npm run start`
-
-Contributing
-------------
-Please submit any useful pull requests through GitHub. If you find any bugs, please report them with the issue tracker! Thanks.
+1. Fork it ( https://github.com/magrathealabs/gambrinus/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
